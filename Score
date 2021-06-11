@@ -1,0 +1,24 @@
+public class Main
+{
+	public static void main(String[] args) {
+		boolean gameOver = true;
+		int score = 800;
+		int levelCompleted = 5;
+		int bonus= 100;
+		
+	if (gameOver){
+	    int finalscore = score + (levelCompleted * bonus);
+	    System.out.println("Your final score is " + finalscore);
+	}
+		
+		boolean newgameover = true;
+		int newscore= 10000;
+		int newlc = 5;
+		int newbonus= 100;
+		
+		if(newgameover){
+		    int fs= newscore + (newlc * newbonus);
+		    System.out.println("Your new final score is " + fs );
+		}
+	}
+}
